@@ -5,7 +5,7 @@ require("dotenv").config()
 app.use(express.json())
 
 app.get("/", (req,res) => {
-    res.send("Hello World, from Docker!")
+    res.send("Hello World, from Docker! This is the update from dev branch!!")
 })
 
 const PORT = process.env.PORT || 8080
